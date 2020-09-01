@@ -1,0 +1,36 @@
+[
+    {
+        "nombre": "registro 1 archivo4",
+        "edad": 45,
+        "activo": true,
+        "promedio": 56.456
+    },
+    {
+        "nombre": "registro 2 archivo4",
+        "edad": 35,
+        "activo": false,
+        "promedio": 45.896
+    },    {
+        "nombre": "registro 3 archivo4",
+        "edad": 45,
+        "activo": true,
+        "promedio": 56.456
+    },
+    {
+        "nombre": "registro 4 archivo4",
+        "edad": 35,
+        "activo": false,
+        "promedio": 45.896
+    },    {
+        "nombre": "registro 5 archivo4",
+        "edad": 45,
+        "activo": true,
+        "promedio": 56.456
+    },
+    {
+        "nombre": "registro 6 archivo4",
+        "edad": 35,
+        "activo": false,
+        "promedio": 45.896
+    }
+]
