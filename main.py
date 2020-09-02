@@ -1,6 +1,7 @@
 import re
 import os.path as path
 from ControladorJson import *
+from Reporte import *
 
 opcion = input("Ingrese el comando\n")
 #opcion=opcion.upper()
@@ -61,6 +62,13 @@ while True:
     elif separado[0].upper() == 'CUENTA':
         controladorJson = ControladorJson()
         controladorJson.cuenta()
+    elif separado[0].upper() == 'REPORTAR':
+        reporte = Reporte()
+        try:
+            numero = int(separado[1])
+            reporte.crearHtml(numero)
+        except ValueError as e:
+            print("Solo se puede manrad un numero como parametro")
     else:
         print('El comando no existe')
 
