@@ -13,7 +13,7 @@
     },    {
         "nombre": "registro 3 archivo1",
         "edad": 45,
-        "activo": true,
+        "activo":true,
         "promedio": 56.456
     },
     {
