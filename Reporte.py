@@ -31,7 +31,9 @@ class Reporte:
         contenidoTabla = contenidoTabla.replace('<th>Activo','<th style="text-align: center;">Activo')
         contenidoTabla = contenidoTabla.replace('<td>', '<td style="text-align: center;">')
 
-        remove("entradas/repo.html")
+        if os.path.exists("entradas/repo.html"):
+            remove("entradas/repo.html")
+
         file = open("entradas/repo.html", "w")
 
         file.write('<!DOCTYPE html>')
